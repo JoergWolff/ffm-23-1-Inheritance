@@ -17,5 +17,12 @@ public class Main {
         carOne.setYearOfManufactoring(2012);
         carOne.setDoors(5);
         System.out.println(carOne);
+
+        Motorbike motorbikeOne = new Motorbike();
+        motorbikeOne.setBrand("Suzuki");
+        motorbikeOne.setModel("Hayabusa");
+        motorbikeOne.setYearOfManufactoring(2013);
+        motorbikeOne.setType("racebike");
+        System.out.println(motorbikeOne);
     }
 }
