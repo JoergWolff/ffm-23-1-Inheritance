@@ -1,5 +1,7 @@
 package org.example.vehicle;
 
+import java.util.Objects;
+
 public class Motorbike extends Vehicle {
 
     protected String type;
@@ -28,5 +30,19 @@ public class Motorbike extends Vehicle {
                 ", model='" + model + '\'' +
                 ", yearOfManufactoring=" + yearOfManufactoring +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Motorbike motorbike = (Motorbike) o;
+        return Objects.equals(type, motorbike.type);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), type);
     }
 }
