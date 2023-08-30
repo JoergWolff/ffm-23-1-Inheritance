@@ -33,7 +33,7 @@ public class Vehicles {
 
     @Override
     public String toString() {
-        return "vehicles{" +
+        return "Vehicles{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", yearOfManufactoring=" + yearOfManufactoring +
