@@ -1,6 +1,6 @@
 package org.example.Fahrzeuge;
 
-public class Motorbike extends Vehicles{
+public class Motorbike extends Vehicles {
 
     protected String type;
 
@@ -9,6 +9,14 @@ public class Motorbike extends Vehicles{
     }
 
     public void setType(String type) {
+        this.type = type;
+    }
+
+    public Motorbike() {
+    }
+
+    public Motorbike(String brand, String model, int yearOfManufactoring, String type) {
+        super(brand, model, yearOfManufactoring);
         this.type = type;
     }
 

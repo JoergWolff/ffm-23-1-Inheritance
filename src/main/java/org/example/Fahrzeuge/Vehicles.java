@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Vehicles {
     protected String brand;
     protected String model;
-    protected  int yearOfManufactoring;
+    protected int yearOfManufactoring;
 
     public String getBrand() {
         return brand;
@@ -30,7 +30,10 @@ public class Vehicles {
     public void setYearOfManufactoring(int yearOfManufactoring) {
         this.yearOfManufactoring = yearOfManufactoring;
     }
-public Vehicles(){}
+
+    public Vehicles() {
+    }
+
     public Vehicles(String brand, String model, int yearOfManufactoring) {
         this.brand = brand;
         this.model = model;

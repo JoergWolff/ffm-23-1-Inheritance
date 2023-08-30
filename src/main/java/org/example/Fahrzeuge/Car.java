@@ -12,6 +12,14 @@ public class Car extends Vehicles {
         this.doors = doors;
     }
 
+    public Car() {
+    }
+
+    public Car(String brand, String model, int yearOfManufactoring, int doors) {
+        super(brand, model, yearOfManufactoring);
+        this.doors = doors;
+    }
+
     @Override
     public String toString() {
         return "Car{" +
