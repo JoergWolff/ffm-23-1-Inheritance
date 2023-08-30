@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab00a449-d93c-47cf-9245-d17157bba63b" name="Changes" comment="change Auto.toString">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Fahrzeuge/Motorbike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Fahrzeuge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Fahrzeuge/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="ab00a449-d93c-47cf-9245-d17157bba63b" name="Changes" comment="add class motorbike" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693384568233</updated>
-      <workItem from="1693384569587" duration="2531000" />
+      <workItem from="1693384569587" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="add class Auto">
       <option name="closed" value="true" />
@@ -75,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693386514350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add class motorbike">
+      <option name="closed" value="true" />
+      <created>1693387396513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693387396513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +88,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add class Auto" />
     <MESSAGE value="change Auto.toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Auto.toString" />
+    <MESSAGE value="add class motorbike" />
+    <option name="LAST_COMMIT_MESSAGE" value="add class motorbike" />
   </component>
 </project>
