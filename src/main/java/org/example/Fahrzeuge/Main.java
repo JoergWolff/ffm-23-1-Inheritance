@@ -5,11 +5,11 @@ public class Main {
         System.out.println("Vehicles");
         System.out.println("_________");
 
-        Vehicles vehicleone = new Vehicles();
-        vehicleone.setBrand("VW");
-        vehicleone.setModel("Passat");
-        vehicleone.setYearOfManufactoring(1980);
-        System.out.println(vehicleone);
+        Vehicles vehicleOne = new Vehicles();
+        vehicleOne.setBrand("VW");
+        vehicleOne.setModel("Passat");
+        vehicleOne.setYearOfManufactoring(1980);
+        System.out.println(vehicleOne);
 
         Car carOne = new Car();
         carOne.setBrand("VW");

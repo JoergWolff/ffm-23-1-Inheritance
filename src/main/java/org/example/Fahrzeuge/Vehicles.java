@@ -30,6 +30,12 @@ public class Vehicles {
     public void setYearOfManufactoring(int yearOfManufactoring) {
         this.yearOfManufactoring = yearOfManufactoring;
     }
+public Vehicles(){}
+    public Vehicles(String brand, String model, int yearOfManufactoring) {
+        this.brand = brand;
+        this.model = model;
+        this.yearOfManufactoring = yearOfManufactoring;
+    }
 
     @Override
     public String toString() {
