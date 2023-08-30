@@ -1,11 +1,11 @@
-package org.example.Fahrzeuge;
+package org.example.vehicle;
 
 public class Main {
     public  static  void main(String[] args){
         System.out.println("Vehicles");
         System.out.println("_________");
 
-        Vehicles vehicleOne = new Vehicles();
+        Vehicle vehicleOne = new Vehicle();
         vehicleOne.setBrand("VW");
         vehicleOne.setModel("Passat");
         vehicleOne.setYearOfManufactoring(1980);

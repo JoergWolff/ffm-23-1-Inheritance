@@ -1,8 +1,8 @@
-package org.example.Fahrzeuge;
+package org.example.vehicle;
 
 import java.util.Objects;
 
-public class Vehicles {
+public class Vehicle {
     protected String brand;
     protected String model;
     protected int yearOfManufactoring;
@@ -31,10 +31,10 @@ public class Vehicles {
         this.yearOfManufactoring = yearOfManufactoring;
     }
 
-    public Vehicles() {
+    public Vehicle() {
     }
 
-    public Vehicles(String brand, String model, int yearOfManufactoring) {
+    public Vehicle(String brand, String model, int yearOfManufactoring) {
         this.brand = brand;
         this.model = model;
         this.yearOfManufactoring = yearOfManufactoring;
@@ -42,7 +42,7 @@ public class Vehicles {
 
     @Override
     public String toString() {
-        return "Vehicles{" +
+        return "Vehicle{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", yearOfManufactoring=" + yearOfManufactoring +
@@ -53,7 +53,7 @@ public class Vehicles {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Vehicles vehicles = (Vehicles) o;
+        Vehicle vehicles = (Vehicle) o;
         return yearOfManufactoring == vehicles.yearOfManufactoring && Objects.equals(brand, vehicles.brand) && Objects.equals(model, vehicles.model);
     }
 

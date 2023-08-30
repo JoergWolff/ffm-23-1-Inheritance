@@ -1,6 +1,6 @@
-package org.example.Fahrzeuge;
+package org.example.vehicle;
 
-public class Motorbike extends Vehicles {
+public class Motorbike extends Vehicle {
 
     protected String type;
 

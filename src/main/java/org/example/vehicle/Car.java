@@ -1,6 +1,6 @@
-package org.example.Fahrzeuge;
+package org.example.vehicle;
 
-public class Car extends Vehicles {
+public class Car extends Vehicle {
 
     protected int doors;
 
